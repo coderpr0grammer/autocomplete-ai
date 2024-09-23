@@ -1,0 +1,29 @@
+<!-- options.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Autofill Extension Options</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        textarea, input[type="text"] { width: 100%; margin-bottom: 10px; }
+        button { margin-top: 10px; }
+        #knowledgeBase > div { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h2>Autofill Knowledge Base</h2>
+    
+    <h3>General Information About You</h3>
+    <textarea id="generalInfo" rows="5" placeholder="Enter general information about yourself here. This will be used to inform AI suggestions."></textarea>
+    
+    <h3>Specific Field Information</h3>
+    <div id="knowledgeBase">
+        <!-- Knowledge base fields will be added here dynamically -->
+    </div>
+    <button id="addField">Add Field</button>
+    
+    <button id="save">Save All</button>
+    
+    <script src="options.js"></script>
+</body>
+</html>
